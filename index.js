@@ -18,9 +18,9 @@ document.getElementById('userForm').addEventListener('submit', function(e){
 
     <h4 class="text-primary" >Submit result information!</h4>
     
+    <p class="fs-6"><strong>Fullname  :</strong>${fullname}</P>
     <p class="fs-6"><strong>Gender     :</strong>${gender}</P>
     <p class="fs-6"><strong>SALARY    :</strong>$${currency}</P>
-    <p class="fs-6"><strong>Fullname  :</strong>${fullname}</P>
     <p class="fs-6"><strong>Date of birth:</strong>${dob}</P>
     <p class="fs-6"><strong>Position:</strong>${position}</P>
     <p class="fs-6"><strong>Description:</strong>${description}</P>
@@ -32,6 +32,7 @@ document.getElementById('userForm').addEventListener('submit', function(e){
 function closeResult(){
     document.getElementById("result").innerHTML = "";
 }
+
 
 
 
